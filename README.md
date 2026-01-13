@@ -33,7 +33,7 @@ Analisar dados de vendas para entender o comportamento do faturamento ao longo d
 ---
 
 ##  Estrutura do Projeto
-- `sql/` → consultas SQL desenvolvidas para a análise
+- [`sql/`](./sql) → consultas SQL desenvolvidas para a análise
 - `data/` → base de dados utilizada no projeto (CSV)
 
 ---
