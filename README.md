@@ -1,12 +1,55 @@
-# portfolio-analise-vendas
+# 📊 Análise de Vendas com SQL
 
-Projeto prático de SQL para análise de dados comerciais e tomada de decisão.
-Foram utilizadas consultas SQL para:
-- Analisar faturamento total e mensal
-- Agrupar dados por período, produto e região
-- Utilizar funções de agregação (SUM, COUNT, AVG)
-- Trabalhar com datas (DATE_TRUNC)
-- Criar views para reutilização das análises
-- Aplicar JOINs entre tabelas relacionadas
+Projeto prático de análise de dados utilizando SQL para explorar métricas de vendas e gerar insights que apoiam a tomada de decisão.
 
-O projeto simula um cenário real de trabalho de um analista de dados, onde o banco de dados já está estruturado e o foco é transformar dados brutos em informações úteis.
+---
+
+## Objetivo
+Analisar dados de vendas para entender o comportamento do faturamento ao longo do tempo, identificar padrões relevantes e aplicar conceitos fundamentais de SQL voltados à análise de dados.
+
+---
+
+##  Perguntas de Negócio
+- Qual é o faturamento total?
+- Como o faturamento evolui ao longo dos meses?
+- Existem períodos com maior ou menor desempenho de vendas?
+- Quais métricas ajudam a avaliar a performance comercial?
+
+---
+
+##  Análises Realizadas
+- Cálculo de faturamento total e mensal
+- Agrupamento de dados por período utilizando `GROUP BY`
+- Uso de funções de agregação como `SUM`, `COUNT` e `AVG`
+- Análise temporal com `DATE_TRUNC`
+- Organização das consultas para reutilização futura
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- SQL (PostgreSQL)
+- GitHub
+
+---
+
+##  Estrutura do Projeto
+- `sql/` → consultas SQL desenvolvidas para a análise
+- `data/` → base de dados utilizada no projeto (CSV)
+
+---
+
+##  Observações
+Este projeto simula um cenário comum de trabalho de um analista de dados, onde o banco de dados já está estruturado e o foco é transformar dados brutos em informações úteis para o negócio.
+
+---
+
+##  Próximos Passos
+- Criar views para análises recorrentes
+- Integrar os dados a uma ferramenta de BI (Power BI)
+- Expandir a análise para novos recortes, como produtos ou regiões
+
+---
+
+##  Autor
+Murilo Vitti  
+Estudante de Administração
