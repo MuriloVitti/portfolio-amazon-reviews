@@ -65,6 +65,6 @@ This project highlights my ability to translate complex database queries into ac
 ## ✉️ Contact
 
 * **Linkedin:** [Murilo Maffei Vitti](https://www.linkedin.com/in/murilomvitti/)
-* **Email:** [murilo.mvitti@gmail.com](murilo.mvitti@gmail.com)
+* **Email:** [murilo.mvitti@gmail.com](mailto:murilo.mvitti@gmail.com)
 * **GitHub:** [MuriloVitti](https://github.com/MuriloVitti) 
 
