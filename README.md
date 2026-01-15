@@ -1,48 +1,11 @@
-# 📊 Análise de Vendas com SQL
+🛒 Amazon Sales & Pricing Strategy (SQL)
 
-Projeto prático de análise de dados utilizando SQL para explorar métricas de vendas e gerar insights que apoiam a tomada de decisão.
+🎯 Project Overview
+This project performs an Exploratory Data Analysis (EDA) on an Amazon dataset to uncover pricing strategies, consumer behavior, and product performance. I used PostgreSQL to clean, structure, and query the data to answer 5 key business questions.
 
----
+📊 Database & Source
+Source:** [Amazon Product Reviews Dataset on Kaggle] (https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset)
 
-## Objetivo
-Analisar dados de vendas para entender o comportamento do faturamento ao longo do tempo, identificar padrões relevantes e aplicar conceitos fundamentais de SQL voltados à análise de dados.
+Scope: 1,000+ products analyzed across multiple categories.
 
----
-
-##  Perguntas de Negócio
-- Qual é o faturamento total?
-- Como o faturamento evolui ao longo dos meses?
-- Existem períodos com maior ou menor desempenho de vendas?
-- Quais métricas ajudam a avaliar a performance comercial?
-
----
-
-##  Análises Realizadas
-- Cálculo de faturamento total e mensal
-- Agrupamento de dados por período utilizando `GROUP BY`
-- Uso de funções de agregação como `SUM`, `COUNT` e `AVG`
-- Análise temporal com `DATE_TRUNC`
-- Organização das consultas para reutilização futura
-
----
-
-## 🛠️ Tecnologias Utilizadas
-- SQL (PostgreSQL)
-- GitHub
-
----
-
-##  Estrutura do Projeto
-- [`sql/`](./sql) → consultas SQL desenvolvidas para a análise
-- `data/` → base de dados utilizada no projeto (CSV)
-
----
-
-##  Observações
-Este projeto simula um cenário comum de trabalho de um analista de dados, onde o banco de dados já está estruturado e o foco é transformar dados brutos em informações úteis para o negócio.
-
----
-
-##  Autor
-Murilo Vitti  
-Estudante de Administração
+Note: The full dataset is located in the /data folder, but due to file size limits, GitHub may not preview it online.
