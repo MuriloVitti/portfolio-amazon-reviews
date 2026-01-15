@@ -19,4 +19,4 @@ During the import process, I identified and resolved critical issues to enable n
 * **Fixing Commas:** Many numbers used commas as thousands separators (like 1,099). I removed them to change the format to 1099.00, which is the standard for SQL databases.
 * **Percentage Transformation:** Stripped `%` characters and converted them into decimal values (e.g., 94% to 0.94) to allow calculations.
 * **Data Integrity:** Handled inconsistent records (like the '|' character found in rating columns) to maintain a clean dataset for final insights.
-* **Check the full script here:** [01_data_cleaning.sql](scripts/01_data_cleaning.sql)
+* **Check the full code here:** [01_data_cleaning.sql](sql/01_data_cleaning.sql)
