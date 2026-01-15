@@ -1,10 +1,10 @@
-#🛒 Amazon Sales & Pricing Strategy (SQL)
+# 🛒 Amazon Sales & Pricing Strategy (SQL)
 
-##🎯 Project Overview
+## 🎯 Project Overview
 
 This project performs an Exploratory Data Analysis (EDA) on an Amazon dataset to uncover pricing strategies, consumer behavior, and product performance. I used PostgreSQL to clean, structure, and query the data to answer 5 key business questions.
 
-##📊 Database & Source
+## 📊 Database & Source
 
 * **Source**:[Amazon Product Reviews Dataset on Kaggle] (https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset)
 
