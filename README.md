@@ -24,14 +24,14 @@ During the import process, I identified and resolved critical issues to enable n
 ## 💡 Business Insights
 I used SQL to answer specific business questions about Amazon's pricing and consumer behavior. Here are the findings:
 
-### Q1: Top Categories by Discount
+## Q1: Top Categories by Discount
 **Question:** Which categories are the most aggressive in their pricing strategy? 
 * **Finding:** Categories like "Cables & Accessories" and "Earpads" reach average discounts of **90%**.
 * **Insight:** This is a highly saturated market. Aggressive pricing is not just a choice, but a necessity to gain visibility in the "Accessories" search results.
 
 ![Top Categories](images/question_01.png)
 
-### Q2: Quality vs. Price Perception
+## Q2: Quality vs. Price Perception
 **Question:** Do massive discounts lead to poor customer ratings?
 * **Finding:** High-discount products (>50%) maintain a **4.06 rating**, virtually identical to the store average of **4.10**.
 * **Insight:** Customers don't perceive "cheap" as "low quality" here. This proves that flash sales can move inventory without damaging the brand's reputation for quality.
@@ -51,7 +51,7 @@ I used SQL to answer specific business questions about Amazon's pricing and cons
 * **Insight:** High-ticket items drive the most significant financial impact for the consumer, even with smaller percentage discounts.
 ![Financial Impact](images/question_4.png)
 
-### Q5: Loss Leaders vs. Essential Goods
+## Q5: Loss Leaders vs. Essential Goods
 **Question:** How does Amazon use different products to drive traffic?
 * **Finding:** A USB-C adapter at **94% off** (Loss Leader) vs. a student notebook at only **2% off** (Essential).
 * **Insight:** This shows a clear strategy: use cheap gadgets as "hooks" to get people onto the site, knowing they will also buy essential items at full margin.
