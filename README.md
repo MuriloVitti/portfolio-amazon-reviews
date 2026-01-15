@@ -29,3 +29,5 @@ I used SQL to answer specific business questions about Amazon's pricing and cons
 * **Finding:** Categories like "Cables & Accessories" and "Earpads" reach average discounts of **90%**.
 * **Insight:** This is a highly saturated market. Aggressive pricing is not just a choice, but a necessity to gain visibility in the "Accessories" search results.
 
+![Top Categories](images/question_01)
+
