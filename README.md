@@ -10,7 +10,7 @@ This project performs an Exploratory Data Analysis (EDA) on an Amazon dataset to
 
 * **Scope**: 1,000+ products analyzed across multiple categories.
 
-* **Note**(: The full dataset is located in the /data folder, but due to file size limits, GitHub may not preview it online.
+* **Note**: The full dataset is located in the /data folder, but due to file size limits, GitHub may not preview it online.
 
 ## 🛠️ Data Challenges & Cleaning (The ELT Process)
 During the import process, I identified and resolved critical issues to enable numerical analysis:
