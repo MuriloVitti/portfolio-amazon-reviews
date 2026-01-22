@@ -1,10 +1,10 @@
-# 🛒 Amazon Sales & Pricing Strategy (SQL)
+# Amazon Sales & Pricing Strategy (SQL)
 
 ##  Project Overview
 
 This project performs an Exploratory Data Analysis (EDA) on an Amazon dataset to uncover pricing strategies, consumer behavior, and product performance. I used PostgreSQL to clean, structure, and query the data to answer 5 key business questions.
 
-## 📊 Database & Source
+## Database & Source
 
 * **Source**:[Amazon Product Reviews Dataset on Kaggle] (https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset)
 
@@ -12,7 +12,7 @@ This project performs an Exploratory Data Analysis (EDA) on an Amazon dataset to
 
 * **Note**: The full dataset is located in the /data folder, but due to file size limits, GitHub may not preview it online.
 
-## 🛠️ Data Challenges & Cleaning (The ELT Process)
+##  Data Challenges & Cleaning (The ELT Process)
 During the import process, I identified and resolved critical issues to enable numerical analysis:
 
 * **Currency & Symbol Handling:** Cleaned the Indian Rupee (₹) symbols and special characters to convert prices into `NUMERIC`.
@@ -21,7 +21,7 @@ During the import process, I identified and resolved critical issues to enable n
 * **Data Integrity:** Handled inconsistent records (like the '|' character found in rating columns) to maintain a clean dataset for final insights.
 * **Check the full code here:** [01_data_cleaning.sql](sql/01_data_cleaning.sql)
 
-## 💡 Business Insights
+## Business Insights
 I used SQL to answer specific business questions about Amazon's pricing and consumer behavior. Here are the findings:
 
 ## Q1: Top Categories by Discount
@@ -58,7 +58,7 @@ I used SQL to answer specific business questions about Amazon's pricing and cons
 
 ![The Extremes](images/question_5.png)
 
-> 📊 **Explore the code:** You can find the logic for these questions in [03_analysis_queries.sql](sql/03_analysis_queries.sql).
+> **Explore the code:** You can find the logic for these questions in [03_analysis_queries.sql](sql/03_analysis_queries.sql).
 
 ##  Conclusion
 Through this SQL analysis, I identified a clear "Hook & Margin" strategy: Amazon uses extreme discounts on technical accessories as traffic drivers (Loss Leaders) while maintaining steady margins on essential goods that customers buy regardless of price. 
